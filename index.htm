@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TripBoss</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="container flex" id="hello">
+         <img src="logo/Barefoot adventure-logos.jpg">&nbsp;
+        <a href="index.html" class="site-brand">
+          Barefoot<span> adventure</span>
+        </a>
+
+        <button type="button" id="navbar-show-btn" class="flex">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div id="navbar-collapse">
+          <button type="button" id="navbar-close-btn" class="flex">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.htm" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.htm" class="nav-link" target="_blank">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a href="/priyaPortfolio/Personal_Portfolio_Site/resumeindex.html" class="nav-link" target="_blank"
+                >ABOUT US</a
+              >
+            </li>
+            <!-- <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">C</a>
+                        </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex">
+      <div class="container">
+        <div class="header-title">
+          <h1>“In the end, we only regret the chances we didn’t take”</h1>
+          <p>
+            Home to one of the Seven Wonders of the World and flaunting
+            exquisite arts like the handicrafts and jewellery Uttar Pradesh is a
+            bountiful state and an utterly religious one. It is the home to some
+            of the most beautiful monuments and cultural sights in India. The
+            state is also known for its Nawabi style in food, can advertise
+            fantastic street food like the samosa and kachori as well as the
+            royal meaty feasts and kebabs. The land of Ram, Lord Krishna, the
+            Buddha and the Taj Mahal- Uttar Pradesh, rich in diversity,
+            transcends all boundaries of art and culture and brings together a
+            lively mix of people from all around the nation.
+          </p>
+        </div>
+        <div class="header-form">
+          <h2>Choose your Travel location:</h2>
+          <form class="flex">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Destination name"
+            />
+            <input type="date" class="form-control" placeholder="Date" />
+            <input type="number" class="form-control" placeholder="Price ($)" />
+            <input type="submit" class="btn" value="Search" />
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+      <div class="container">
+        <div class="title-wrap">
+          <span class="sm-title"
+            >know about some places before your travel</span
+          >
+          <h2 class="lg-title">Featured places</h2>
+        </div>
+
+        <div class="featured-row">
+          <div class="featured-item my-2 shadow">
+            <img src="images/clock tower.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Clock Tower,Lucknow
+              </span>
+              <div>
+                <p class="text">
+                  Husainabad Clock Tower is a clock tower located in the Lucknow
+                  city of India. It was constructed in 1881 by Hussainabad Trust
+                  to mark the arrival of Sir George Couper, the first lieutenant
+                  governor of United Province of Avadh. It was built at a cost
+                  of Rs. 1.75 lakhs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/baraimambara.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Imambara,Lucknow
+              </span>
+              <div>
+                <p class="text">
+                  Bara Imambara, also known as Asfi Imambara is an imambara
+                  complex in Lucknow, India built by Asaf-ud-Daula, Nawab of
+                  Awadh in 1784. Bara means big. This imambara is the second
+                  largest after the Nizamat Imambara.[
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/rumi darwaza.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Rumi Darwaza,Lucknow
+              </span>
+              <div>
+                <p class="text">
+                  The Rumi Darwaza (Hindi: रूमी दरवाज़ा, Urdu: رومی دروازه, and
+                  sometimes known as the Turkish Gate), in Lucknow, Uttar
+                  Pradesh, India, is an imposing gateway which was built by
+                  Nawab Asaf-Ud-Daula in 1784.[1] It is an example of Awadhi
+                  architecture.[1] The Rumi Darwaza, which stands sixty feet
+                  tall,[2] was modeled (1784) after the Sublime Porte
+                  (Bab-iHümayun) in Istanbul.[
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/tajmahal.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Taj mahal,Agra
+              </span>
+              <div>
+                <p class="text">
+                  The Taj Mahal is an ivory-white marble mausoleum on the right
+                  bank of the river Yamuna in the Indian city of Agra. It was
+                  commissioned in 1632 by the Mughal emperor Shah Jahan (r.
+                  1628–1658) to house the tomb of his favourite wife, Mumtaz
+                  Mahal; it also houses the tomb of Shah Jahan himself. The tomb
+                  is the centrepiece of a 17-hectare (42-acre) complex, which
+                  includes a mosque and a guest house, and is set in formal
+                  gardens bounded on three sides by a crenellated wall.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/assi ghat.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Assi Ghat,varanasi
+              </span>
+              <div>
+                <p class="text">
+                  Assi Ghat is the southernmost ghat in Varanasi.[1] To most
+                  visitors to Varanasi, it is known for being a place where
+                  long-term foreign students, researchers, and tourists live.[2]
+                  With hosting Subah-e-Banaras in the morning, assi ghat
+                  provides a spectacular notion of river Ganga.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img
+              src="images/safdarganj.jpg"
+              alt="featured place"
+            />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Safdarjung's tomb ,Delhi
+              </span>
+              <div>
+                <p class="text">
+                    Safdarjung's Tomb is a sandstone and marble mausoleum in Delhi, India. It was built in 1754 in the late Mughal Empire style for Nawab Safdarjung. The monument has an ambience of spaciousness and an imposing presence with its domed and arched red brown and white coloured structures. Safdarjung, Nawab of Oudh, was made prime minister of the Mughal Empire (Wazir ul-Mamlak-i-Hindustan) when Ahmed Shah Bahadur ascended the throne in 1748.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-item my-2 shadow">
+            <img src="images/sathkhanda.jpg" alt="featured place" />
+            <div class="featured-item-content">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                Sathkhanda,Lucknow
+              </span>
+              <div>
+                <p class="text">
+                    he word ‘Satkhanda’ means Seven-Storeyed. Initially, this building was intended to comprise seven storeys but it’s c
+                    onstruction work was later abandoned and thus, only 4 level of it could be completed. Incomplete but 
+                    nevertheless splendour of heritage architecture, Satkhnada, a red-brick watch-tower, constructed by King Mohammed Ali 
+                    Shah, is situated near the Chota Imambara. Satkhanda, a four-storey tower, has got it’s architectural design 
+                    influenced from ‘The Leaning Tower of Pisa’, one of the seven wonders of world. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+      <div class="container">
+        <div class="title-wrap">
+          <span class="sm-title">know about services that we offer</span>
+          <h2 class="lg-title">Our services</h2>
+        </div>
+
+        <div class="services-row">
+          <div class="services-item">
+            <span class="services-icon">
+              <i class="fas fa-hotel"></i>
+            </span>
+            <h3>Luxurious Hotel</h3>
+            <p class="text">
+              Found the best luxxurious  Hotel around you and according to your budget  
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+
+          <div class="services-item">
+            <span class="services-icon">
+              <i class="fas fa-map-marked-alt"></i>
+            </span>
+            <h3>Trave Guide</h3>
+            <p class="text">
+              You can also hire the best guide in minimum price .
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+
+          <div class="services-item">
+            <span class="services-icon">
+              <i class="fas fa-money-bill"></i>
+            </span>
+            <h3>Suitable Price</h3>
+            <p class="text">
+              The price are suitable and low as compared with other websites and you will 
+              also get 15% off on every booking through us in case you are new to our website  
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+      <div class="container">
+        <div class="title-wrap">
+          <span class="sm-title">what our clients say about us</span>
+          <h2 class="lg-title">testimonials</h2>
+        </div>
+
+        <div class="test-row">
+          <div class="test-item">
+            <p class="text">
+              This is the one of the best website to know about the places to
+              visit in all over the uttar pradesh. It will help you a lot if you
+              don't know many places where you can hangout with your amigos!!
+            </p>
+            <div class="test-item-info">
+              <img src="/images/hitesh.jpg" alt="testimonial" />
+              <div>
+                <h3>Hitesh tyagi</h3>
+                <p class="text">Trip to sahranpur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="test-item">
+            <p class="text">
+              Excellent! Very good service from beginning to end. Even with a
+              COVID-related delay in the middle of it, .
+            </p>
+            <div class="test-item-info">
+              <img src="/images/sethu.jpg" alt="testimonial" />
+              <div>
+                <h3>Shivam Seth</h3>
+                <p class="text">Trip to Varanasi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="test-item">
+            <p class="text">
+              It was really nice trip, Good experience. I specially love your
+              service which you provide to us through this website . !!
+            </p>
+            <div class="test-item-info">
+              <img src="/images/manas.jpg" alt="testimonial" />
+              <div>
+                <h3>Manas barnwal</h3>
+                <p class="text">Trip to Lucknow</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <section id="video">
+      <div class="video-wrapper flex">
+        <video loop>
+          <source src="video/video.mp4" type="video/mp4" />
+        </video>
+        <button type="button" id="play-btn">
+          <i class="fas fa-play"></i>
+        </button>
+      </div>
+    </section>
+    <!-- end of video section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+      <div class="container footer-row">
+        <div class="footer-item">
+          <a href="index.htm" class="site-brand"
+            >Barefoot<span>Adventure</span>
+          </a>
+          <p class="text">
+            Discover new place for your vaccations 
+          </p>
+        </div>
+
+        <div class="footer-item">
+          <h2>Follow us on:</h2>
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h2>Popular Places:</h2>
+          <ul>
+            <li><a href="#">Agra</a></li>
+            <li><a href="#">Lucknow</a></li>
+            <li><a href="#">Varanasi</a></li>
+            <li><a href="#">Prayagraj</a></li>
+            <li><a href="#">Noida</a></li>
+          </ul>
+        </div>
+
+        <div class="subscribe-form footer-item">
+          <h2>Subscribe for Newsletter!</h2>
+          <form class="flex">
+            <input
+              type="email"
+              placeholder="Enter Email"
+              class="form-control"
+            />
+            <input type="submit" class="btn" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+     <font>
+        <pre align="middle">
+            copyright © Designed and Devloped 
+                 by  Priya
+                </pre>  
+</font> 
+    
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script>
+      // play/pause video
+      let video = document.querySelector(".video-wrapper video");
+      document.getElementById("play-btn").addEventListener("click", () => {
+        if (video.paused) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    </script>
+  </body>
+</html>
